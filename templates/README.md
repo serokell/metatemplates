@@ -35,9 +35,8 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
 
 ## About Serokell [↑](#-patak)
 
-Patak is maintained by [Serokell](https://serokell.io/).
+Patak is maintained and funded with :heart: by [Serokell](https://serokell.io/). The names and logo for Serokell are trademark of Serokell OÜ.
 
-We love open source software.
-See which [services](https://serokell.io/#services) we provide and [drop us a line](mailto:hi@serokell.io) if you are interested.
+We love open source software! See [our other projects](https://serokell.io/community?utm_source=github) or [hire us](https://serokell.io/hire-us?utm_source=github) to design, develop and grow your idea!
 
 [//]: # (TODO: consider making https://www.notion.so/serokell/Awesome-Serokell-our-repositories-list-36412d7f9e704098a2bbb41ff889d52b public and adding this link here.)
