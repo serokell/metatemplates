@@ -42,7 +42,7 @@ checkmark indicating that you are sure it is dealt with (be that by irrelevance)
 [//]: # (Add more docs here if you have them in the repository)
 - Documentation
   - [ ] I checked whether I should update the docs and did so if necessary:
-    - [README](/README.md)
+    - [README](../tree/master/README.md)
     - Haddock
 
 [//]: # (Mostly for public repositories)
@@ -50,7 +50,7 @@ checkmark indicating that you are sure it is dealt with (be that by irrelevance)
 - Public contracts
   - [ ] Any modifications of public contracts comply with the [Evolution
   of Public Contracts](https://www.notion.so/serokell/Evolution-of-Public-Contracts-2a3bf7971abe4806a24f63c84e7076c5) policy.
-  - [ ] I added an entry to the [changelog](/CHANGES.md) if my changes are visible to the users
+  - [ ] I added an entry to the [changelog](../tree/master/CHANGES.md) if my changes are visible to the users
         and
   - [ ] provided a migration guide for breaking changes if possible
 
@@ -59,4 +59,4 @@ checkmark indicating that you are sure it is dealt with (be that by irrelevance)
 [//]: # (Update link to style guide if necesary or remove if it's not present)
 
 - [ ] My commits comply with [the policy used in Serokell](https://www.notion.so/serokell/Where-and-how-to-commit-your-work-58f8973a4b3142c8abbd2e6fd5b3a08e).
-- [ ] My code complies with the [style guide](docs/code-style.md).
+- [ ] My code complies with the [style guide](../tree/master/docs/code-style.md).
