@@ -27,10 +27,15 @@ Write 'None' if there are no related issues (which is discouraged).
 
 ## :white_check_mark: Checklist for your Pull Request
 
+<!--
 Ideally a PR has all of the checkmarks set.
 
 If something in this list is irrelevant to your PR, you should still set this
 checkmark indicating that you are sure it is dealt with (be that by irrelevance).
+
+If you don't set a checkmark (e. g. don't add a test for new functionality),
+you must be able to justify that.
+-->
 
 #### Related changes (conditional)
 
