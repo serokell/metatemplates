@@ -64,6 +64,13 @@ but, basically, it all boils down to the following:
     you do not plan to relicense it, use the appropriate license identifier and
     make sure the license text exists in the `LICENSES` directory.
 
+    If the file contains the entire license in its header, it is best to move the
+    text to a separate file in the `LICENSES` directory and leave a reference.
+
+  * If you are copying pieces of code from some other project, leave a note in the
+    comments, stating where you copied it from, who is the copyright owner, and
+    what license applies.
+
   * All the same rules apply to documentation that is stored in the repository.
 
 These simple rules should cover most of situation you are likely to encounter.
