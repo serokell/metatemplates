@@ -44,8 +44,7 @@ but, basically, it all boils down to the following:
     file – it is not as hard as it might sound):
 
     ```haskell
-    {-
-     - © 2019 Serokell <hi@serokell.io>
+    {- SPDX-FileCopyrightText: 2019 Serokell <https://serokell.io>
      -
      - SPDX-License-Identifier: MPL-2.0
      -}
@@ -76,4 +75,4 @@ but, basically, it all boils down to the following:
 These simple rules should cover most of situation you are likely to encounter.
 In case of doubt, consult the [REUSE Practices][reuse] document.
 
-[reuse]: https://reuse.software/practices/2.0/
+[reuse]: https://reuse.software/spec/
