@@ -6,6 +6,12 @@
 [//]: # (Keep in mind that it's only a template which contains items relevant to almost all conceivable repository.)
 [//]: # (There can be other important items relevant to your repository that you can add here.)
 
+<!--
+ - SPDX-FileCopyrightText: 2019 Serokell <https://serokell.io>
+ -
+ - SPDX-License-Identifier: LicenseRef-MPL-2.0
+ -->
+
 ## Description
 
 <!--

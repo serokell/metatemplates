@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2019 Serokell <https://serokell.io>
+#
+# SPDX-License-Identifier: LicenseRef-MPL-2.0
+
 # Example Makefile that you can put into root directory of a Haskell package.
 # We assume that it is called "mypackage".
 # It uses `make/Makefile`.

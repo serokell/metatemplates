@@ -1,3 +1,7 @@
+# TODO: I (@gromak) have no idea where this file has been taken from.
+# If you intend to use it, you should figure our the source of this file
+# and add correct licensing header here.
+
 build: off
 
 before_test:
