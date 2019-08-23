@@ -16,14 +16,16 @@ STACK_DEV_OPTIONS = --fast --ghc-options -Wwarn --file-watch
 STACK_BUILD_MORE_OPTIONS = --test --bench --no-run-tests --no-run-benchmarks
 # Options for tests
 STACK_DEV_TEST_OPTIONS = --fast
+# Options for CI
+STACK_CI_TEST_OPTIONS = --fast --ghc-options -Werror
 # Addtional (specified by user) options passed to test executable
 TEST_ARGUMENTS ?= ""
 # Packages to apply the command (build, test, e.t.c) for.
 PACKAGE ?= non-defined-package
 
 define call_test
-	stack test $(PACKAGE) $(STACK_DEV_TEST_OPTIONS) \
-		--test-arguments "--color always $(TEST_ARGUMENTS) $1"
+	stack test $(PACKAGE) \
+		--test-arguments "--color always $(TEST_ARGUMENTS) $1" $2
 endef
 
 # Build everything (including tests and benchmarks) with development options.
@@ -32,18 +34,21 @@ dev:
 
 # Run tests in all packages which have them.
 test:
-	$(call call_test,"")
+	$(call call_test,"",$(STACK_DEV_TEST_OPTIONS))
+
+test-ci:
+	$(call call_test,"",$(STACK_CI_TEST_OPTIONS))
 
 # Like 'test' command, but enforces dumb terminal which may be useful to
 # workardoung some issues with `tasty`.
 # Primarily this one: https://github.com/feuerbach/tasty/issues/152
 test-dumb-term:
-	TERM=dumb $(call call_test,"")
+	TERM=dumb $(call call_test,"",$(STACK_DEV_TEST_OPTIONS))
 
 # Run tests with `--hide-successes` option. It forces dumb terminal,
 # because otherwise this option is likely to work incorrectly.
 test-hide-successes:
-	TERM=dumb $(call call_test,"--hide-successes")
+	TERM=dumb $(call call_test,"--hide-successes",$(STACK_DEV_TEST_OPTIONS))
 
 # Run haddock for all packages.
 haddock:
