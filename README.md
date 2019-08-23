@@ -1,3 +1,9 @@
+<!--
+   - SPDX-FileCopyrightText: 2019 Serokell <https://serokell.io>
+   -
+   - SPDX-License-Identifier: MPL-2.0
+   -->
+
 # metatemplates
 
 Common files present in our repositories or their templates.
