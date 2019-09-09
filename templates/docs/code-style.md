@@ -1,7 +1,7 @@
 <!--
    - SPDX-FileCopyrightText: 2019 Serokell <https://serokell.io>
    -
-   - SPDX-License-Identifier: MPL-2.0
+   - SPDX-License-Identifier: Unlicense
    -->
 
 Our style guides can be found in https://github.com/serokell/style.

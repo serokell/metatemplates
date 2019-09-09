@@ -1,7 +1,7 @@
 <!--
    - SPDX-FileCopyrightText: 2019 Serokell <https://serokell.io>
    -
-   - SPDX-License-Identifier: MPL-2.0
+   - SPDX-License-Identifier: LicenseRef-ReplaceMe
    -->
 
 [//]: # (This is a template of the README.md file in a repo called 'patak'.)

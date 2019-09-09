@@ -1,7 +1,7 @@
 <!--
    - SPDX-FileCopyrightText: 2019 Serokell <https://serokell.io>
    -
-   - SPDX-License-Identifier: MPL-2.0
+   - SPDX-License-Identifier: Unlicense
    -->
 
 # Contribution Guidelines
@@ -52,7 +52,7 @@ but, basically, it all boils down to the following:
     ```haskell
     {- SPDX-FileCopyrightText: 2019 Serokell <https://serokell.io>
      -
-     - SPDX-License-Identifier: MPL-2.0
+     - SPDX-License-Identifier: LicenseRef-ReplaceMe
      -}
     ```
 
