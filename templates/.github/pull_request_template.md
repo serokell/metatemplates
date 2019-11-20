@@ -15,6 +15,10 @@ another describing your solution.
 -->
 
 [//]: # (Here you can add a link to the corresponding issue tracker, e. g. https://issues.serokell.io/issue/AD-)
+[//]: # (For GitHub/GitLab issues it is better to use just hash symbol or exclamation mark as it is more resistant to repo movements)
+[//]: # (In this case please also prefix the link with "Resolves" keyword)
+[//]: # (See https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
+[//]: # (See https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords)
 ## Related issue(s)
 
 <!--
