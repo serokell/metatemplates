@@ -50,10 +50,10 @@ but, basically, it all boils down to the following:
     file – it is not as hard as it might sound):
 
     ```haskell
-    {- SPDX-FileCopyrightText: 2019 Serokell <https://serokell.io>
-     -
-     - SPDX-License-Identifier: LicenseRef-ReplaceMe
-     -}
+    -- SPDX-FileCopyrightText: 2019 Serokell <https://serokell.io>
+    --
+    -- SPDX-License-Identifier: LicenseRef-ReplaceMe
+    --
     ```
 
     (This is an example for Haskell; adapt it as needed for other languages.)
