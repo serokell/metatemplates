@@ -67,9 +67,4 @@
 - warn: { lhs: either (const True) (const False), rhs: isLeft }
 - warn: { lhs: either (const False) (const True), rhs: isRight }
 
-- warn: { lhs: Data.Map.toAscList (Data.Map.fromList x), rhs:
-           Universum.sortWith fst x }
-- warn: { lhs: Data.Map.toDescList (Data.Map.fromList x), rhs:
-           Universum.sortWith (Down . fst) x }
-
 - warn: { lhs: map fst &&& map snd, rhs: unzip }
