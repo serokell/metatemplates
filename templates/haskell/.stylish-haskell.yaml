@@ -2,6 +2,9 @@
 #
 # SPDX-License-Identifier: Unlicense
 
+### This is a TEMPLATE of stylish-haskell config.
+### It MAY be used as is, but see the NOTE about `language_pragmas`
+
 # Default stylish-haskell config used in Serokell.
 
 steps:
@@ -18,9 +21,12 @@ steps:
       list_padding: 2
       separate_lists: false
       space_surround: false
-  - language_pragmas:
-      style: compact
-      remove_redundant: true
+# NOTE: if you don't want language pragmas to be affected, remove these lines.
+# Otherwise, uncomment and set style to `compact`, `vertical` or `compact_line`
+# as you prefer.
+#  - language_pragmas:
+#      style: compact
+#      remove_redundant: true
   - trailing_whitespace: {}
 columns: 100
 newline: native
