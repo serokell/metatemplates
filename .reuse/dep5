@@ -1,12 +1,12 @@
 # SPDX-FileCopyrightText: 2019 Serokell <https://serokell.io>
-# SPDX-License: Unlicense
+# SPDX-License: CC0-1.0
 
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 
 Files: templates/.github/*
 Copyright: 2019 Serokell <https://serokell.io>
-License: Unlicense
+License: CC0-1.0
 
 Files: templates/reuse/dep5
 Copyright: 2019 Serokell <https://serokell.io>
-License: Unlicense
+License: CC0-1.0
