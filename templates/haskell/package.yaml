@@ -157,6 +157,8 @@ tests:
     build-tools: tasty-discover:tasty-discover
 
     ghc-options:
+    # Non-exhaustive patterns are ok and useful in tests.
+    - -Wno-incomplete-patterns
     # tasty runs tests in parallel, so using multiple threads should be useful.
     - -threaded
     # should be harmless, but helps some people analyse something :shrug:
