@@ -110,16 +110,16 @@ default-extensions:
   - ViewPatterns
 
 ghc-options:
-  -Weverything
-  -Wno-missing-exported-signatures
-  -Wno-missing-import-lists
-  -Wno-missed-specialisations
-  -Wno-all-missed-specialisations
-  -Wno-unsafe
-  -Wno-safe
-  -Wno-missing-local-signatures
-  -Wno-monomorphism-restriction
-  -Wno-implicit-prelude
+  - -Weverything
+  - -Wno-missing-exported-signatures
+  - -Wno-missing-import-lists
+  - -Wno-missed-specialisations
+  - -Wno-all-missed-specialisations
+  - -Wno-unsafe
+  - -Wno-safe
+  - -Wno-missing-local-signatures
+  - -Wno-monomorphism-restriction
+  - -Wno-implicit-prelude
 
 when:
   - condition: impl(ghc >= 8.10.0)
