@@ -3,10 +3,10 @@
 
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 
-Files: templates/.github/*
+Files: .github/*
 Copyright: 2019 Serokell <https://serokell.io>
 License: CC0-1.0
 
-Files: templates/reuse/dep5
+Files: .gitlab/*
 Copyright: 2019 Serokell <https://serokell.io>
 License: CC0-1.0
