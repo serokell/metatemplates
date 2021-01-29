@@ -1,6 +1,6 @@
-# SPDX-FileCopyrightText: 2019 Serokell <https://serokell.io>
+# SPDX-FileCopyrightText: 2018 Serokell <https://serokell.io>
 #
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: CC0-1.0
 
 ### This is a TEMPLATE of stylish-haskell config.
 ### It MAY be used as is, but see the NOTE about `language_pragmas`

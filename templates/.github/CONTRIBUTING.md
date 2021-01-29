@@ -1,7 +1,7 @@
 <!--
-   - SPDX-FileCopyrightText: 2019 Serokell <https://serokell.io>
+   - SPDX-FileCopyrightText: 2018-2019 Serokell <https://serokell.io>
    -
-   - SPDX-License-Identifier: Unlicense
+   - SPDX-License-Identifier: CC0-1.0
    -->
 
 # Contribution Guidelines
@@ -52,7 +52,7 @@ but, basically, it all boils down to the following:
     ```haskell
     -- SPDX-FileCopyrightText: 2020 Serokell <https://serokell.io/>
     --
-    -- SPDX-License-Identifier: ReplaceMe
+    -- SPDX-License-Identifier: LicenseRef-ReplaceMe
     ```
 
     (This is an example for Haskell; adapt it as needed for other languages.)
