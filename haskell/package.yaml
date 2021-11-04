@@ -88,6 +88,7 @@ default-extensions:
   - MultiWayIf
   - NamedFieldPuns
   - NegativeLiterals
+  - NoStarIsType
   - NumDecimals
   - OverloadedLabels
   - OverloadedStrings
