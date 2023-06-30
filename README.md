@@ -1,5 +1,5 @@
 <!--
-   - SPDX-FileCopyrightText: 2019-2021 Serokell <https://serokell.io>
+   - SPDX-FileCopyrightText: 2019-2023 Serokell <https://serokell.io>
    -
    - SPDX-License-Identifier: LicenseRef-ReplaceMe
    -->
@@ -22,6 +22,7 @@ Please put the right license there (or delete it if there is no license).
 * In general, it's highly advised that you go over all files and check whether they make sense in your new repo.
 The aforementioned Notion page should help you.
 If you make a PR that adapts this template for your new project, reviewers of your PR can help you as well.
+* Templates for nix infrastructure and CI are in a [separate repository](https://github.com/serokell/templates).
 * Everything above this line, except for the copyright header, is supposed to be removed.
 
 [//]: # (All comments like this one are meta-comments, they are supposed to be read carefully)
