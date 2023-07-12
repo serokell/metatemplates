@@ -19,6 +19,7 @@ You can check that all meta-comments are removed using `git grep '\[\/\/\]:'`.
 * [ ] Since we have repos at GitHub and GitLab, we provide both [`.github/`](.github/) and [`.gitlab/`](.gitlab/) folders, one of them should be removed.
 * [ ] The root [LICENSE](./LICENSE) file is present because it's treated specially by GitHub and GitLab.
 Please put the right license there (or delete it if there is no license).
+* [ ] Move any applicable licenses from [`.reuse/LICENSES/`](.reuse/LICENSES/) to [`LICENSES/`](LICENSES/), and delete the rest.
 * [ ] In general, it's highly advised that you go over all files and check whether they make sense in your new repo.
 The aforementioned Notion page should help you.
 If you make a PR that adapts this template for your new project, reviewers of your PR can help you as well.
