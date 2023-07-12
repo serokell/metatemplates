@@ -13,17 +13,17 @@ for more details about this feature.
 
 If you have just created a new repo from this template, please start from here.
 Here are some things to keep in mind:
-* We have [a page in Notion](https://www.notion.so/serokell/Create-a-repository-9028c5c379364407b8b2019b69d2e64a) describing how to create a new repository.
-* Make sure to read meta-comments (you won't see them in rendered markdown because they are comments, but you can see them in raw files) and remove them eventually.
+* [ ] We have [a page in Notion](https://www.notion.so/serokell/Create-a-repository-9028c5c379364407b8b2019b69d2e64a) describing how to create a new repository.
+* [ ] Make sure to read meta-comments (you won't see them in rendered markdown because they are comments, but you can see them in raw files) and remove them eventually.
 You can check that all meta-comments are removed using `git grep '\[\/\/\]:'`.
-* Since we have repos at GitHub and GitLab, we provide both [`.github/`](.github/) and [`.gitlab/`](.gitlab/) folders, one of them should be removed.
-* The root [LICENSE](./LICENSE) file is present because it's treated specially by GitHub and GitLab.
+* [ ] Since we have repos at GitHub and GitLab, we provide both [`.github/`](.github/) and [`.gitlab/`](.gitlab/) folders, one of them should be removed.
+* [ ] The root [LICENSE](./LICENSE) file is present because it's treated specially by GitHub and GitLab.
 Please put the right license there (or delete it if there is no license).
-* In general, it's highly advised that you go over all files and check whether they make sense in your new repo.
+* [ ] In general, it's highly advised that you go over all files and check whether they make sense in your new repo.
 The aforementioned Notion page should help you.
 If you make a PR that adapts this template for your new project, reviewers of your PR can help you as well.
-* Templates for nix infrastructure and CI are in a [separate repository](https://github.com/serokell/templates).
-* Everything above this line, except for the copyright header, is supposed to be removed.
+* [ ] Templates for nix infrastructure and CI are in a [separate repository](https://github.com/serokell/templates).
+* [ ] Everything above this line, except for the copyright header, is supposed to be removed.
 
 [//]: # (All comments like this one are meta-comments, they are supposed to be read carefully)
 [//]: # (and removed when you finish filling up this template for the needs of your repo.)
