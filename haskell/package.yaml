@@ -122,13 +122,9 @@ ghc-options:
   - -Wno-missing-local-signatures
   - -Wno-monomorphism-restriction
   - -Wno-implicit-prelude
-
-when:
-  - condition: impl(ghc >= 8.10.0)
-    ghc-options:
-      - -Wno-prepositive-qualified-module
-      - -Wno-inferred-safe-imports
-      - -Wno-missing-safe-haskell-mode
+  - -Wno-prepositive-qualified-module
+  - -Wno-inferred-safe-imports
+  - -Wno-missing-safe-haskell-mode
 
 # Note that `hpack` (apparently) concatenates lists automatically.
 # So if you define `dependencies` for a component, they will be concatenated
