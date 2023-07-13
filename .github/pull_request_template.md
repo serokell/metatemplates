@@ -71,3 +71,15 @@ you must be able to justify that.
 
 - [ ] My commits comply with [the policy used in Serokell](https://www.notion.so/serokell/Where-and-how-to-commit-your-work-58f8973a4b3142c8abbd2e6fd5b3a08e).
 - [ ] My code complies with the [style guide](../tree/master/docs/code-style.md).
+
+## ✓ Release Checklist
+
+[//]: # (Remove or add actions as appropriate)
+
+- [ ] I updated the version number in `package.yaml`.
+- [ ] If any definitions (functions, type classes, instances, etc) were added,
+      I added [`@since` haddock annotations](https://haskell-haddock.readthedocs.io/en/latest/markup.html#since).
+- [ ] (After merging) I created a new entry on the [releases](../releases) page,
+      with a summary of all user-facing changes.
+    *  I made sure a tag was created using the format `vX.Y.Z`
+- [ ] (After merging) I uploaded the package to hackage.
