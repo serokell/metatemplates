@@ -32,36 +32,53 @@ steps:
 columns: 100
 newline: native
 language_extensions:
+  - AllowAmbiguousTypes
+  - ApplicativeDo
   - BangPatterns
+  - BlockArguments
   - ConstraintKinds
   - DataKinds
   - DefaultSignatures
+  - DeriveAnyClass
   - DeriveDataTypeable
+  - DeriveFoldable
+  - DeriveFunctor
   - DeriveGeneric
+  - DeriveTraversable
   - DerivingStrategies
+  - DerivingVia
   - EmptyCase
-  - ExistentialQuantification
-  - ExplicitNamespaces
   - FlexibleContexts
   - FlexibleInstances
-  - FunctionalDependencies
   - GADTs
   - GeneralizedNewtypeDeriving
   - ImportQualifiedPost
+  - InstanceSigs
   - LambdaCase
   - MultiParamTypeClasses
   - MultiWayIf
   - NamedFieldPuns
-  - NoImplicitPrelude
+  - NegativeLiterals
+  - NoStarIsType
+  - NumDecimals
+  - NumericUnderscores
   - OverloadedLabels
   - OverloadedStrings
   - PatternSynonyms
+  - PolyKinds
+  - QuasiQuotes
+  - RankNTypes
   - RecordWildCards
   - RecursiveDo
   - ScopedTypeVariables
   - StandaloneDeriving
+  - StandaloneKindSignatures
+  - StrictData
   - TemplateHaskell
   - TupleSections
   - TypeApplications
   - TypeFamilies
+  - TypeOperators
+  - UndecidableInstances
+  - UndecidableSuperClasses
   - ViewPatterns

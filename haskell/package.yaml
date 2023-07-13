@@ -65,6 +65,7 @@ license-file: LICENSE
 # You may want to add NoImplicitPrelude here.
 default-extensions:
   - AllowAmbiguousTypes
+  - ApplicativeDo
   - BangPatterns
   - BlockArguments
   - ConstraintKinds
@@ -84,6 +85,7 @@ default-extensions:
   - GADTs
   - GeneralizedNewtypeDeriving
   - ImportQualifiedPost
+  - InstanceSigs
   - LambdaCase
   - MultiParamTypeClasses
   - MultiWayIf
@@ -91,6 +93,7 @@ default-extensions:
   - NegativeLiterals
   - NoStarIsType
   - NumDecimals
+  - NumericUnderscores
   - OverloadedLabels
   - OverloadedStrings
   - PatternSynonyms
@@ -101,6 +104,7 @@ default-extensions:
   - RecursiveDo
   - ScopedTypeVariables
   - StandaloneDeriving
+  - StandaloneKindSignatures
   - StrictData
   - TemplateHaskell
   - TupleSections
