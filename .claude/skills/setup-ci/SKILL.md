@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: 2026 Serokell <https://serokell.io>
 # SPDX-License-Identifier: CC0-1.0
 name: setup-ci
-description: Use when adding or editing CI configuration (.github/workflows/*.yml, .gitlab-ci.yml), bootstrapping CI for a new repository, or wiring up branch protection. Covers GitHub Actions, GitLab CI, self-hosted nix runners, and the standard nix flake template.
+description: Use when the user asks to bootstrap CI for a Serokell repo, add a GitHub Actions workflow, create a `.gitlab-ci.yml`, wire up self-hosted nix runners, or apply a haskell.nix CI template. Triggers on phrases like "set up CI", "add a workflow", "create .gitlab-ci.yml", "configure CI for this repo", "self-hosted nix runner", "nix flake init for CI", "haskell.nix CI template", "common CI checks".
 ---
 
 # Setting up CI/CD

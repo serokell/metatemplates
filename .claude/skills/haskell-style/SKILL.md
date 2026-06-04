@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: 2026 Serokell <https://serokell.io>
 # SPDX-License-Identifier: CC0-1.0
 name: haskell-style
-description: Use when editing .hs source files, configuring a Haskell package, running hlint or stylish-haskell, or setting GHC warning flags. Covers Serokell's Haskell style conventions and the local hlint/stylish/package.yaml configs.
+description: Use when the user asks to format Haskell code, run hlint or stylish-haskell, fix warnings, configure GHC options, or set up `package.yaml` and the standard Makefile for a Haskell package. Triggers on phrases like "format this Haskell", "run hlint", "fix hlint warnings", "stylish-haskell", "Haskell import order", "newtype field naming", "GHC warning flags", "make test", "haddock build", "package.yaml extensions".
 ---
 
 # Haskell style

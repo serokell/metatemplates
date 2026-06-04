@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: 2026 Serokell <https://serokell.io>
 # SPDX-License-Identifier: CC0-1.0
 name: youtrack-issues
-description: Use when filing or editing issues in YouTrack (issues.serokell.io). Covers project selection, Type, Title, the Bug vs Task description templates, and the "acceptance criteria for robots" guideline.
+description: Use when the user asks to file a YouTrack issue at `issues.serokell.io`, transition an issue state, pick the right project, or write a Bug or Task description with acceptance criteria. Triggers on phrases like "file a YouTrack issue", "create a YT ticket", "report this bug", "open an issue for this", "move issue to Done", "what project for this issue", "write acceptance criteria", "YouTrack Type field".
 ---
 
 # Filing YouTrack issues

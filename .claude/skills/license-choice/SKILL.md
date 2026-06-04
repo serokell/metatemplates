@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: 2026 Serokell <https://serokell.io>
 # SPDX-License-Identifier: CC0-1.0
 name: license-choice
-description: Use when adding a LICENSE file, choosing an SPDX license identifier for a new project, or setting up a proprietary repository. Decision tree for MPL / GPL / AGPL / proprietary licensing.
+description: Use when the user asks to pick a license for a new Serokell project, add a LICENSE file, set up a proprietary repository, or handle copyright on customer / derived work. Triggers on phrases like "pick a license", "what license should we use", "add LICENSE file", "set up a proprietary repo", "MPL or GPL", "LicenseRef-Proprietary", "customer owns the copyright".
 ---
 
 # Choosing a license

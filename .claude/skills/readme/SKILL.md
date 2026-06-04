@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: 2026 Serokell <https://serokell.io>
 # SPDX-License-Identifier: CC0-1.0
 name: readme
-description: Use when creating or editing a README.md file. Covers Standard Readme spec compliance, Serokell-specific additions (promo blurb for public repos), and the multi-component README rule.
+description: Use when the user asks to write or fix a README following the Standard Readme spec, add the Serokell public-repo promo blurb, or set up per-component READMEs in a multi-package repo. Triggers on phrases like "write a README", "fix the README", "Standard Readme", "short description for readme", "promo blurb", "README per package", "README required sections".
 ---
 
 # README.md

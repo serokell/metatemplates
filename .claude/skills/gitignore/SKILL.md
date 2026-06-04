@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: 2026 Serokell <https://serokell.io>
 # SPDX-License-Identifier: CC0-1.0
 name: gitignore
-description: Use when creating or editing a .gitignore file. Covers the precise-pattern rule, where to put per-component ignores, and the separation between project, global, and local-only ignores.
+description: Use when the user asks to add patterns to `.gitignore`, fix imprecise ignore patterns, decide between project / global / local-only ignores, or set up `.gitignore` for a new Haskell or multi-language repo. Triggers on phrases like "add to gitignore", "ignore these files", "fix gitignore", "what goes in gitignore", "global git ignore", "ignore build output", ".stack-work", "dist-newstyle", "editor files in gitignore".
 ---
 
 # .gitignore

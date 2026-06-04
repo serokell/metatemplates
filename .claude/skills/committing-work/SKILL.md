@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: 2026 Serokell <https://serokell.io>
 # SPDX-License-Identifier: CC0-1.0
 name: committing-work
-description: Use when creating a branch for an issue, drafting commit messages, or running git commit. Covers Serokell branch naming convention and the Problem/Solution commit message format.
+description: Use when the user asks to commit work, draft a commit message, create a branch for an issue, or make a fixup commit in a Serokell repo. Triggers on phrases like "commit these changes", "draft a commit message", "create a branch for this issue", "make a fixup commit", "git commit", "what should the branch be called", "Problem/Solution".
 ---
 
 # Committing work

@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: 2026 Serokell <https://serokell.io>
 # SPDX-License-Identifier: CC0-1.0
 name: repository-settings
-description: Use when bootstrapping a new GitHub or GitLab repository, configuring branch protection, setting merge-mode flags, or running `gh repo edit` / `gh api` to wire up Serokell-default repo policies.
+description: Use when the user asks to configure repo settings for a new Serokell repo — branch protection, merge-mode flags, required signed commits, access roles — including via `gh repo edit` or `gh api`. Triggers on phrases like "configure repo settings", "protect master", "set branch protection", "require signed commits", "disable rebase merging", "gh repo edit", "set up new GitHub repo", "branch protection rules".
 ---
 
 # Repository settings

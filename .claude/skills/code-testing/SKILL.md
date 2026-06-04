@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: 2026 Serokell <https://serokell.io>
 # SPDX-License-Identifier: CC0-1.0
 name: code-testing
-description: Use when writing or modifying tests, fixing a bug (regression test required), adding CLI executables (execution tests required), setting up coverage / benchmarks / fuzzing, or deciding what kind of test (unit / integration / acceptance, blackbox / greybox, specific / invariant) to write.
+description: Use when the user asks to add tests, write a regression test for a bug, set up CLI execution tests or coverage in CI, or pick the kind of test (unit / property / blackbox / acceptance) to write. Triggers on phrases like "add a test for this", "write a regression test", "add test coverage", "test this CLI", "property-based test", "fuzzing", "what kind of test should I write", "edge-case test".
 ---
 
 # Code testing

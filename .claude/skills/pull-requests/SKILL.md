@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: 2026 Serokell <https://serokell.io>
 # SPDX-License-Identifier: CC0-1.0
 name: pull-requests
-description: Use when opening or editing a pull request on GitHub or a merge request on GitLab, drafting a PR description, or ticking checkboxes in the PR template.
+description: Use when the user asks to open a PR or MR, draft a PR description, fill the PR template, request reviewers, or merge a PR in a Serokell repo. Triggers on phrases like "open a PR", "create a pull request", "make an MR", "write PR description", "fill the PR template", "request review", "merge this PR", "tick the checkboxes".
 ---
 
 # Pull requests and merge requests

@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: 2026 Serokell <https://serokell.io>
 # SPDX-License-Identifier: CC0-1.0
 name: code-review
-description: Use when reviewing a pull request, leaving review comments, approving or requesting changes, or deciding between "approve", "request changes", and "comment" verdicts on GitHub or GitLab.
+description: Use when the user asks to review a pull request, leave review comments, decide between approve / request changes / comment, or resolve conversations on someone else's PR. Triggers on phrases like "review this PR", "leave a code review", "approve or request changes", "review someone's PR", "resolve this conversation", "PR review comments", "comment on the PR".
 ---
 
 # Code review

@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: 2026 Serokell <https://serokell.io>
 # SPDX-License-Identifier: CC0-1.0
 name: reuse-headers
-description: Use when creating a new source file, fixing a REUSE lint failure, or copying source code from a third-party project. Covers SPDX-FileCopyrightText and SPDX-License-Identifier header conventions.
+description: Use when the user asks to add SPDX headers to a new source file, fix a `reuse lint` failure, copy third-party code, or annotate files in bulk. Triggers on phrases like "add SPDX header", "REUSE lint failing", "add license header to this file", "reuse annotate", "missing copyright header", "fix REUSE compliance", "SPDX-FileCopyrightText".
 ---
 
 # REUSE / SPDX headers
