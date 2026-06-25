@@ -17,6 +17,10 @@ Here are some things to keep in mind:
 * [ ] Make sure to read meta-comments (you won't see them in rendered markdown because they are comments, but you can see them in raw files) and remove them eventually.
 You can check that all meta-comments are removed using `git grep '\[\/\/\]:'`.
 * [ ] Since we have repos at GitHub and GitLab, we provide both [`.github/`](.github/) and [`.gitlab/`](.gitlab/) folders, one of them should be removed.
+* [ ] Fill in [`PROJECT.md`](./PROJECT.md) with this repo's issue tracker, YouTrack project key, and team lead.
+Both contributors and coding agents read it.
+* [ ] We ship coding-agent instructions in [`.claude/skills/`](.claude/skills/) and [`.github/copilot-instructions.md`](.github/copilot-instructions.md).
+Review them and remove the ones irrelevant to this repo (e.g. `haskell-style` if there's no Haskell, `youtrack-issues` if you don't use YouTrack).
 * [ ] The root [LICENSE](./LICENSE) file is present because it's treated specially by GitHub and GitLab.
 Please put the right license there (or delete it if there is no license).
 * [ ] Move any applicable licenses from [`.reuse/LICENSES/`](.reuse/LICENSES/) to [`LICENSES/`](LICENSES/), and delete the rest.
