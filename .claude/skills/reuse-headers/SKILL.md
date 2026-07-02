@@ -8,8 +8,8 @@ description: Use when the user asks to add SPDX headers to a new source file, fi
 # REUSE / SPDX headers
 
 This repo follows the REUSE Practices. `reuse lint` must pass on every
-commit. The repo-wide license registration lives in
-`.reuse/dep5`; per-file headers cover everything not blanket-covered there.
+commit. The repo-wide license registration lives in `REUSE.toml`;
+per-file headers cover everything not blanket-covered there.
 
 <!-- REUSE-IgnoreStart -->
 
