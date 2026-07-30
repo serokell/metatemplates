@@ -67,6 +67,7 @@ Body:
 - Continue with `Solution:` paragraph describing how this commit
   addresses the problem.
 - Add additional context after that if useful.
+- Wrap the body at 72 characters; hard limit 80.
 
 Body is mandatory.
 
