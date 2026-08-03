@@ -51,6 +51,11 @@ When the source is not intended to be freely used by anyone:
 
 (This is a temporary workaround until SPDX supports a `NONE` tag.)
 
+**Nix-templates caveat**: If you bootstrapped CI from `nix-templates`
+(`generic` or `haskell-library`), the generated `flake.nix` is
+MPL-2.0 and must retain `LICENSES/MPL-2.0.txt`. Do not delete it even
+if the rest of the project is proprietary — `reuse lint` will fail.
+
 ## Files in the repository
 
 Whichever license you pick:
