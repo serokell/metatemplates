@@ -3,9 +3,26 @@
 # SPDX-License-Identifier: CC0-1.0
 name: bootstrap-repo
 description: Use when the user asks to create a new Serokell repository, bootstrap a fresh repo from `metatemplates`, fork an external repo into the Serokell org, initialize a new project, or sequence the full new-repo setup (create → customise → license → CI → settings). Triggers on phrases like "create a new Serokell repo", "bootstrap this repo", "set up a fresh repo", "fork this repo into serokell", "initialize new project", "new repo from metatemplates", "start a new project", "first commit on a new repo".
+requires:
+  - pull-requests
+  - license-choice
+  - reuse-headers
+  - readme
+  - gitignore
+  - haskell-style
+  - setup-ci
+  - repository-settings
+  - changelog
 ---
 
 # Bootstrap a new repository
+
+> **Skill bundle**: this skill delegates to `pull-requests`, `license-choice`,
+> `reuse-headers`, `readme`, `gitignore`, `haskell-style`, `setup-ci`,
+> `repository-settings`, and `changelog`. All of them must be available. In a
+> repo created from `metatemplates`, the full `.claude/skills/` directory is
+> already present. If only this skill was installed, clone or copy
+> `serokell/metatemplates` and load the siblings before proceeding.
 
 ## Fork or new repo?
 
