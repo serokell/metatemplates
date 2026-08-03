@@ -1,0 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Serokell <https://serokell.io>
+# SPDX-License-Identifier: CC0-1.0
+
+exclusions:
+  # Notion requires authentication; xrefcheck cannot verify these links.
+  ignoreExternalRefsTo:
+    - "https://app.notion.com/.*"

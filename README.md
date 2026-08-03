@@ -13,7 +13,7 @@ for more details about this feature.
 
 If you have just created a new repo from this template, please start from here.
 Here are some things to keep in mind:
-* [ ] We have [a page in Notion](https://www.notion.so/serokell/Create-a-repository-9028c5c379364407b8b2019b69d2e64a) describing how to create a new repository.
+* [ ] We have [a page in Notion](https://app.notion.com/p/serokell/Create-a-repository-9028c5c379364407b8b2019b69d2e64a) describing how to create a new repository.
 * [ ] Make sure to read meta-comments (you won't see them in rendered markdown because they are comments, but you can see them in raw files) and remove them eventually.
 You can check that all meta-comments are removed using `git grep '\[\/\/\]:'`.
 * [ ] Since we have repos at GitHub and GitLab, we provide both [`.github/`](.github/) and [`.gitlab/`](.gitlab/) folders, one of them should be removed.
@@ -80,4 +80,4 @@ The names and logo for Serokell are trademark of Serokell OÜ.
 
 We love open source software! See [our other projects](https://serokell.io/community?utm_source=github) or [hire us](https://serokell.io/hire-us?utm_source=github) to design, develop and grow your idea!
 
-[//]: # (TODO: consider making https://www.notion.so/serokell/Awesome-Serokell-our-repositories-list-36412d7f9e704098a2bbb41ff889d52b public and adding this link here.)
+[//]: # (TODO: consider making https://app.notion.com/p/serokell/Awesome-Serokell-our-repositories-list-36412d7f9e704098a2bbb41ff889d52b public and adding this link here.)
