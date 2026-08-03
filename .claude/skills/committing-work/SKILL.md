@@ -97,8 +97,9 @@ blocked processes using the `kill` syscall.
   identified problem.
 - A commit should not fix a problem introduced by an earlier commit in
   the same PR (clean that up via interactive rebase before merging).
-- Force-push: only when rebasing on a newer target branch, and use
-  `--force-with-lease`, never `-f`.
+- For ordinary new commits, use plain `git push`.
+- Force-push only after rewriting history (e.g. after `git rebase`).
+  Use `--force-with-lease`, never `-f`.
 
 ## During PR review
 
