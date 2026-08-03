@@ -45,9 +45,9 @@ Equivalent `gh` invocation (set everything via CLI in one call):
 gh repo edit \
   --enable-auto-merge \
   --delete-branch-on-merge \
-  --allow-rebase-merge=false \
-  --allow-squash-merge=true \
-  --allow-merge-commit
+  --enable-rebase-merge=false \
+  --enable-squash-merge \
+  --enable-merge-commit
 ```
 
 ## Branch protection on long-lived branches
