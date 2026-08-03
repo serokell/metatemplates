@@ -143,6 +143,20 @@ full input, so identical builds across repos hit the cache. Changing the
 compiler version (even slightly) invalidates the cache for affected
 derivations.
 
+## Running Nix locally
+
+**Before running `nix build` or `nix flake check` locally, ask the
+user.** Without the Serokell binary cache, a full build can take
+anywhere from tens of minutes to several hours — building GHC from
+scratch easily exceeds two hours.
+
+The primary way to verify changes is to push to a branch and read the
+CI run logs. When in doubt, default to that.
+
+If the user wants to run Nix locally, first check whether the binary
+cache is configured (use the `nix-binary-cache` skill). If it is not,
+offer to set it up before proceeding.
+
 ## Branch protection (CI side)
 
 After CI exists, configure the protected branches (usually `master`)
