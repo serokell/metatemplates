@@ -54,6 +54,11 @@ Three GitHub / GitLab verdicts: **approve**, **request changes**,
   request-changes confidence — for example, when raising a question
   you can't yet judge.
 
+**GitHub quirk**: the API rejects a `REQUEST_CHANGES` review submitted
+by the PR author on their own PR. If you are the author and need to
+flag issues found during self-review, use `COMMENT` instead — all
+inline comments and the summary are preserved.
+
 ## Comment hygiene
 
 - When the issue raised by **your** comment is addressed (e.g.
