@@ -48,6 +48,20 @@ through a standard shell-like invocation and validate every subcommand
 and option as thoroughly as possible. This is the single most
 important kind of test for shipping a high-quality CLI product.
 
+**Nix sandbox caveat**: in a Nix build, the compiled executable is a
+separate derivation from the test suite, so it is not in PATH when
+tests run. Three options:
+
+- **Library API tests** (simpler): call the library functions directly
+  from the test suite. Covers logic but not the CLI surface.
+- **Integration derivation** (thorough): create a separate `pkgs.runCommand`
+  (or `pkgs.testers.runNixOSTest`) that takes both the executable and
+  the test script as explicit inputs. Wire it up as an additional
+  `checks` entry in `flake.nix`.
+- **Outside the sandbox**: run the test binary directly via `cabal test`
+  or `stack test` during development, where the executable is in PATH.
+  Suitable for local iteration; does not replace a CI-tracked Nix check.
+
 ### Test coverage in CI
 
 - CI should produce a test coverage report.
