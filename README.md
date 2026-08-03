@@ -19,8 +19,9 @@ You can check that all meta-comments are removed using `git grep '\[\/\/\]:'`.
 * [ ] Since we have repos at GitHub and GitLab, we provide both [`.github/`](.github/) and [`.gitlab/`](.gitlab/) folders, one of them should be removed.
 * [ ] Fill in [`PROJECT.md`](./PROJECT.md) with this repo's issue tracker, YouTrack project key, and team lead.
 Both contributors and coding agents read it.
-* [ ] We ship coding-agent instructions in [`.claude/skills/`](.claude/skills/) and [`.github/copilot-instructions.md`](.github/copilot-instructions.md).
-Review them and remove the ones irrelevant to this repo (e.g. `haskell-style` if there's no Haskell, `youtrack-issues` if you don't use YouTrack).
+* [ ] We ship coding-agent instructions in [`.claude/settings.json`](.claude/settings.json) (plugin) and [`.github/copilot-instructions.md`](.github/copilot-instructions.md).
+Review the Copilot instructions and remove sections irrelevant to this repo.
+To customise a skill, add a local `.claude/skills/<skill-name>/SKILL.md` that overrides the plugin version.
 * [ ] The root [LICENSE](./LICENSE) file is present because it's treated specially by GitHub and GitLab.
 Please put the right license there (or delete it if there is no license).
 * [ ] Move any applicable licenses from [`.reuse/LICENSES/`](.reuse/LICENSES/) to [`LICENSES/`](LICENSES/), and delete the rest.

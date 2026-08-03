@@ -59,8 +59,8 @@ you must be able to justify that.
 
 - Agent instructions (conditional)
   - [ ] If this PR was opened by a coding agent (Claude Code, Copilot, etc.),
-        it followed the agent instructions in `.claude/skills/` and
-        `.github/copilot-instructions.md`.
+        it followed the agent instructions in `.claude/settings.json`
+        (plugin) and `.github/copilot-instructions.md`.
 
 [//]: # (Mostly for public repositories)
 [//]: # (Recording changes is optional, depends on repository, useful for some libs)
