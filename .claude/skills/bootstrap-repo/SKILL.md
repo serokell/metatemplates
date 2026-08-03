@@ -34,6 +34,8 @@ description: Use when the user asks to create a new Serokell repository, bootstr
    - SPDX headers on every file → `reuse-headers` skill.
    - README rewritten to Standard Readme → `readme` skill.
    - `.gitignore` for the project's stack → `gitignore` skill.
+   - `.editorconfig`: keep and adapt it (or remove it if the team
+     doesn't use editor integration).
    - Haskell configs in `haskell/` (or delete the directory) →
      `haskell-style` skill.
    - PR/MR template: always keep it. Keep the directory for your host
@@ -62,5 +64,9 @@ description: Use when the user asks to create a new Serokell repository, bootstr
   before merging.
 - Strip every `[//]: # (...)` meta-comment from inherited files —
   they exist to guide the human creator, not to ship. Verify
-  removal with `git grep '\[\/\/\]:'` (should return nothing in
-  committed files).
+  removal with:
+  ```
+  git grep '\[\/\/\]:' -- ':!.claude/' ':!.github/pull_request_template.md'
+  ```
+  (The exclusions avoid false positives from skill files and the PR
+  template, which contain these patterns intentionally.)
