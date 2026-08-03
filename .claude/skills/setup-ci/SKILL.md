@@ -59,6 +59,18 @@ files it produces:
 
 Delete the one for the host you are not using.
 
+**Git tracking**: Nix flakes only evaluate git-tracked files. After
+running `nix flake init`, run `git add` on all new files before
+attempting any `nix build` or `nix flake check`. Otherwise `nix`
+silently ignores the new files — checks like `reuse-lint` that pass
+locally can still fail in CI or when run via `nix build`.
+
+**REUSE note**: The nix-templates-generated `flake.nix` files
+(`generic` and `haskell.nix/library`) are licensed under MPL-2.0.
+Even for proprietary projects that have deleted `LICENSES/`, you must
+keep `LICENSES/MPL-2.0.txt` for `reuse lint` to pass, since that
+file's header declares MPL-2.0.
+
 For Haskell projects, prefer the haskell.nix templates:
 
 ```
