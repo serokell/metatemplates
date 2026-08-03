@@ -54,7 +54,13 @@ you must be able to justify that.
 - Documentation
   - [ ] I checked whether I should update the docs and did so if necessary:
     - [README](../tree/master/README.md)
+    [//]: # (Haskell-specific: remove if there is no Haskell in this repo)
     - Haddock
+
+- Agent instructions (conditional)
+  - [ ] If this PR was opened by a coding agent (Claude Code, Copilot, etc.),
+        it followed the agent instructions in `.claude/skills/` and
+        `.github/copilot-instructions.md`.
 
 [//]: # (Mostly for public repositories)
 [//]: # (Recording changes is optional, depends on repository, useful for some libs)
@@ -72,6 +78,7 @@ you must be able to justify that.
 - [ ] My commits comply with [the policy used in Serokell](https://app.notion.com/p/serokell/Where-and-how-to-commit-your-work-58f8973a4b3142c8abbd2e6fd5b3a08e).
 - [ ] My code complies with the [style guide](../tree/master/docs/code-style.md).
 
+[//]: # (Haskell-specific: remove the Release Checklist section if there is no Haskell in this repo)
 ## ✓ Release Checklist
 
 [//]: # (Remove or add actions as appropriate)
