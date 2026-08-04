@@ -13,14 +13,15 @@ for more details about this feature.
 
 If you have just created a new repo from this template, please start from here.
 Here are some things to keep in mind:
-* [ ] We have [a page in Notion](https://www.notion.so/serokell/Create-a-repository-9028c5c379364407b8b2019b69d2e64a) describing how to create a new repository.
+* [ ] We have [a page in Notion](https://app.notion.com/p/serokell/Create-a-repository-9028c5c379364407b8b2019b69d2e64a) describing how to create a new repository.
 * [ ] Make sure to read meta-comments (you won't see them in rendered markdown because they are comments, but you can see them in raw files) and remove them eventually.
 You can check that all meta-comments are removed using `git grep '\[\/\/\]:'`.
 * [ ] Since we have repos at GitHub and GitLab, we provide both [`.github/`](.github/) and [`.gitlab/`](.gitlab/) folders, one of them should be removed.
 * [ ] Fill in [`PROJECT.md`](./PROJECT.md) with this repo's issue tracker, YouTrack project key, and team lead.
 Both contributors and coding agents read it.
-* [ ] We ship coding-agent instructions in [`.claude/skills/`](.claude/skills/) and [`.github/copilot-instructions.md`](.github/copilot-instructions.md).
-Review them and remove the ones irrelevant to this repo (e.g. `haskell-style` if there's no Haskell, `youtrack-issues` if you don't use YouTrack).
+* [ ] We ship coding-agent instructions in [`.claude/settings.json`](.claude/settings.json) (plugin) and [`.github/copilot-instructions.md`](.github/copilot-instructions.md).
+Review the Copilot instructions and remove sections irrelevant to this repo.
+To customise a skill, add a local `.claude/skills/<skill-name>/SKILL.md` that overrides the plugin version.
 * [ ] The root [LICENSE](./LICENSE) file is present because it's treated specially by GitHub and GitLab.
 Please put the right license there (or delete it if there is no license).
 * [ ] Move any applicable licenses from [`.reuse/LICENSES/`](.reuse/LICENSES/) to [`LICENSES/`](LICENSES/), and delete the rest.
@@ -28,6 +29,7 @@ Please put the right license there (or delete it if there is no license).
 The aforementioned Notion page should help you.
 If you make a PR that adapts this template for your new project, reviewers of your PR can help you as well.
 * [ ] Templates for nix infrastructure and CI are in a [separate repository](https://github.com/serokell/templates).
+* [ ] Update [`.xrefcheck.yaml`](.xrefcheck.yaml): remove the `ignoreLocalRefsTo` entries for template placeholders (`./img/logo.png`, `Makefile`) and add any exclusions your repo actually needs.
 * [ ] Everything above this line, except for the copyright header, is supposed to be removed.
 
 [//]: # (All comments like this one are meta-comments, they are supposed to be read carefully)
@@ -37,7 +39,7 @@ If you make a PR that adapts this template for your new project, reviewers of yo
 [//]: # (It is very tentative, just to help you start.)
 
 [//]: # (Logo is absolutely optional)
-# ![](./img/logo.png) Patak
+# ![](./img/logo.png)Patak
 
 [//]: # (Badges if appropriate)
 [//]: # (When you start a new project, usually there won't be many badges initially.)
@@ -52,32 +54,32 @@ Patak is a modern tool which is good at doing X using Y because Z.
 
 [//]: # (References to the beginning of README might be useful if the README is very big.)
 [//]: # (If it's not, feel free to remove them.)
-## Build Instructions [↑](#-patak)
+## Build Instructions [↑](#patak)
 
 Run `make` to build everything.
 
-## Usage [↑](#-patak)
+## Usage [↑](#patak)
 
 Launch `patak` executable and see how it does X.
 If you pass `--impress` you will be impressed.
 Pass `--help` to see all flags and options.
 
 [//]: # (Only for projects which don't use GitHub issues)
-## Issue Tracker [↑](#-patak)
+## Issue Tracker [↑](#patak)
 
 We use [YouTrack](https://issues.serokell.io/issues/PAT) as our issue
 tracker. You can login using your GitHub account to leave a comment or
 create a new issue.
 
-## For Contributors [↑](#-patak)
+## For Contributors [↑](#patak)
 
 Please see [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
 
-## About Serokell [↑](#-patak)
+## About Serokell [↑](#patak)
 
 Patak is maintained and funded with ❤️ by [Serokell](https://serokell.io/).
 The names and logo for Serokell are trademark of Serokell OÜ.
 
-We love open source software! See [our other projects](https://serokell.io/community?utm_source=github) or [hire us](https://serokell.io/hire-us?utm_source=github) to design, develop and grow your idea!
+We love open source software! See [our other projects](https://serokell.io/projects?utm_source=github) or [hire us](https://serokell.io/contacts?utm_source=github) to design, develop and grow your idea!
 
-[//]: # (TODO: consider making https://www.notion.so/serokell/Awesome-Serokell-our-repositories-list-36412d7f9e704098a2bbb41ff889d52b public and adding this link here.)
+[//]: # (TODO: consider making https://app.notion.com/p/serokell/Awesome-Serokell-our-repositories-list-36412d7f9e704098a2bbb41ff889d52b public and adding this link here.)

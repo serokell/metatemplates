@@ -1,0 +1,9 @@
+{
+  "extraKnownMarketplaces": {
+    "serokell": {
+      "source": { "source": "github", "repo": "serokell/claude-plugins" },
+      "autoUpdate": true
+    }
+  },
+  "enabledPlugins": ["serokell-global@serokell"]
+}

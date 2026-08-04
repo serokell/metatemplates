@@ -1,0 +1,17 @@
+# SPDX-FileCopyrightText: 2026 Serokell <https://serokell.io>
+# SPDX-License-Identifier: CC0-1.0
+
+scanners:
+  markdown:
+    flavor: GitHub
+
+exclusions:
+  # These are template placeholders in README.md and CONTRIBUTING.md.
+  # The logo and Makefile do not exist in the template repo itself.
+  ignoreLocalRefsTo:
+    - "./img/logo.png"
+    - "Makefile"
+  # Notion and YouTrack both require authentication; xrefcheck cannot verify these links.
+  ignoreExternalRefsTo:
+    - "https://app.notion.com/.*"
+    - "https://issues.serokell.io/.*"
