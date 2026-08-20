@@ -5,5 +5,7 @@
       "autoUpdate": true
     }
   },
-  "enabledPlugins": ["serokell-global@serokell"]
+  "enabledPlugins": {
+    "serokell-global@serokell": true
+  }
 }
