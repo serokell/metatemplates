@@ -29,6 +29,7 @@ Please put the right license there (or delete it if there is no license).
 The aforementioned Notion page should help you.
 If you make a PR that adapts this template for your new project, reviewers of your PR can help you as well.
 * [ ] Templates for nix infrastructure and CI are in a [separate repository](https://github.com/serokell/templates).
+* [ ] Consider adding Danger-based PR/MR checks via the `serokell_danger` gem. This is optional; see [docs/danger.md](docs/danger.md).
 * [ ] Update [`.xrefcheck.yaml`](.xrefcheck.yaml): remove the `ignoreLocalRefsTo` entries for template placeholders (`./img/logo.png`, `Makefile`) and add any exclusions your repo actually needs.
 * [ ] Everything above this line, except for the copyright header, is supposed to be removed.
 
